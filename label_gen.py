@@ -18,9 +18,9 @@ for (root, dirs, files) in os.walk(path):
         with open(os.path.join(root, fname)) as f:
             data = json.load(f)
 
-            has_skeleton = (data["data"] != [])
-            entry = {"has_skeleton": has_skeleton, "label": data["label"], "label_index": data["label_index"]}
-            summary[name] = entry
+        has_skeleton = (data["data"] != [])
+        entry = {"has_skeleton": has_skeleton, "label": data["label"], "label_index": data["label_index"]}
+        summary[name] = entry
 
 output_path = os.path.dirname(path)+"_label.json"
 with open(output_path, 'w') as output:
