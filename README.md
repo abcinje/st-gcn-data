@@ -15,6 +15,11 @@ python fps.py [-s start_time] <input directory>
 python openpose.py <openpose directory> <input directory>
 ```
 
+## Merging json files
+```
+python merge.py <input directory>
+```
+
 ## Normalization
 ```
 python norm.py <input directory> <video width> <video height>

@@ -1,0 +1,41 @@
+label_rec = {
+"eat meal/snack":1, 
+"drink water":4, 
+"brushing teeth":10, 
+"brushing hair":16, 
+"wear jacket":18, 
+"take off jacket":19, 
+"wear on glasses":21, 
+"reading":32, 
+"writing":34, 
+"make a phone call/answer phone":35, 
+"playing with phone/tablet":36, 
+"clapping":39, 
+"wipe face":40, 
+"nod head/bow":44, 
+"handshaking":46, 
+"hugging other person":47, 
+"hand waving":49, 
+"pointing to something with finger":51
+}
+
+label_ntu = {
+1:"drink water", 
+2:"eat meal/snack", 
+3:"brushing teeth", 
+4:"brushing hair", 
+10:"clapping", 
+11:"reading", 
+12:"writing", 
+14:"wear jacket", 
+15:"take off jacket", 
+18:"wear on glasses", 
+23:"hand waving", 
+28:"make a phone call/answer phone", 
+29:"playing with phone/tablet", 
+31:"pointing to something with finger", 
+35:"nod head/bow", 
+37:"wipe face", 
+55:"hugging other person", 
+58:"handshaking"
+}
