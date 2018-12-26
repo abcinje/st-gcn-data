@@ -3,11 +3,11 @@
 ## Prerequisites
 - Python3
 - [OpenPose](https://github.com/yysijie/openpose)
-- FFmpeg
+- [FFmpeg](https://www.ffmpeg.org)
 
 ## Setting FPS to 30 (optional)
 ```
-python fps.py <input directory>
+python fps.py [-s start_time] <input directory>
 ```
 
 ## Normalization
