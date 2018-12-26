@@ -10,6 +10,11 @@
 python fps.py [-s start_time] <input directory>
 ```
 
+## Running OpenPose
+```
+python openpose.py <openpose directory> <input directory>
+```
+
 ## Normalization
 ```
 python norm.py <input directory> <video width> <video height>
