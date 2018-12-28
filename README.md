@@ -29,3 +29,9 @@ python norm.py <input directory> <video width> <video height>
 ```
 python label_gen.py <input directory>
 ```
+
+## Running them all at once
+From executing OpenPose to making a summary file, run all at once by the following command:
+```
+./run.sh <openpose directory> <input directory> <video width> <video height>
+```
